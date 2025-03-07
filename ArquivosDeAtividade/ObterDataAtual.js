@@ -1,8 +1,8 @@
 // Obter Data atual
 let data = new Date();
 
-function obterDataAtual() {
-  console.log(data.toLocaleDateString("pt-BR"));
+function obterDataAtual(data) {
+  return data.toLocaleDateString("pt-BR");
 }
 
-obterDataAtual();
+console.log(obterDataAtual(data));
